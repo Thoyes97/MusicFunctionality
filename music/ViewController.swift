@@ -55,6 +55,7 @@ class ViewController: UIViewController, MPMediaPickerControllerDelegate  {
 //    Button to tell mediaplayer to pause current song
     @IBAction func pause(_ sender: UIButton) {
         myMediaPlayer.pause()
+        myMediaPlayer.stop()
     }
     
 //    Button to tell mediaplayer to go to the previous song
